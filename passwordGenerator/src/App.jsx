@@ -5,8 +5,13 @@ function App() {
 
   return (
     <>
-      <h1>React App</h1>
-      <p>React App</p>
+    <div className="container mt-5 col-md-6">
+<h2 className="text-center">Generate Your Password</h2>
+<div className="mt-4 p-5 bg-primary text-white rounded">
+
+  
+  </div>
+</div>
     </>
   )
 }
