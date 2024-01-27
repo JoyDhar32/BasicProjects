@@ -30,8 +30,6 @@ function App() {
     passwordRef.current?.select()
     
   }
-
-
   useEffect(()=>{
     generatePassword()
   }, [length, numberAllowed, charAllowed])
