@@ -5,6 +5,7 @@ function App() {
   const [numberAllowed, setNumberAllowed]=useState(false);
   const [charAllowed, setCharAllowed]=useState(false);
   const [password, setPassword]=useState("");
+  const passwordRef=useRef(null);
   return (
     <>
       <div className="container mt-5">
