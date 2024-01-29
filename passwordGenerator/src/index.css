@@ -13,7 +13,20 @@
     background-color: #800080; /* purple color code */
   }
   .main{
-    background: gray
+    background: gray;
+    box-shadow: 6px 6px 20px black;
+    transition: box-shadow 0.8s, transform 0.8s;
+  }
+  .main:hover{
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.01);
+    transition-duration:  0.8s;
+  }
+
+  .main:active{
+    box-shadow: 2px 2px 10px black;
+    transform: scale(0.99);
+    transition-duration:  0.8s;
   }
   .passwordColor{
     box-shadow: 0 0 10px 0.2rem rgba(128, 0, 128, 0.25);
