@@ -48,6 +48,7 @@ function App() {
                   type="range"
                   class="form-control-range"
                   id="passwordLength"
+                  min={6} max={20} value={length} onChange={(e) => setLength(e.target.value)}
                 />
                 <label for="passwordLength"> Length</label>
               </div>
