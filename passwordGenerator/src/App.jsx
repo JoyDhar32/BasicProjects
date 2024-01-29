@@ -50,7 +50,7 @@ function App() {
                   id="passwordLength"
                   min={6} max={20} value={length} onChange={(e) => setLength(e.target.value)}
                 />
-                <label for="passwordLength"> Length</label>
+                <label for="passwordLength"> Length {length}</label>
               </div>
               <div class="form-group col-md-3">
                 <input
