@@ -9,4 +9,22 @@
     border-color: #6a006a; /* purple color code */
 
   }
-  
+  .range{
+    background-color: #800080; /* purple color code */
+  }
+  .main{
+    background: gray
+  }
+  .passwordColor{
+    box-shadow: 0 0 10px 0.2rem rgba(128, 0, 128, 0.25);
+  }
+  label{
+    color: #800080; /* purple color code */
+    margin-left: 5px;
+  }
+  input[type="checkbox"] {
+    width: 18; /* Set the width to make it larger */
+    height: 18; /* Set the height to make it larger */
+    border-radius: 100%; /* Set border-radius to make it rounded */
+    transform: scale(1.5); /* Use transform to make it bigger */
+}
