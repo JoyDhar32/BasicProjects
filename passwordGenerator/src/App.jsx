@@ -23,9 +23,12 @@ function App() {
   }, [length, numberAllowed, charAllowed])
   const copyPasswordToClipboard = () => {
     window.navigator.clipboard.writeText(password)
-    passwordRef.current?.select()
-    
+    passwordRef.current?.select() 
   }
+  useEffect(()=>{
+    generatePassword()
+  }, [length, numberAllowed, charAllowed])
+
   return (
     <>
       <div className="container mt-5">
