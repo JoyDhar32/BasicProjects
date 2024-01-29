@@ -17,7 +17,6 @@ function App() {
       const char = Math.floor(Math.random() * str.length + 1);
       pass += str.charAt(char);
     }
-
     setPassword(pass);
   }, [length, numberAllowed, charAllowed]);
   const copyPasswordToClipboard = () => {
@@ -35,7 +34,7 @@ function App() {
         <div className="row justify-content-center mt-4 ">
           <div className="col-md-8 p-5 text-white main">
             <div className="input-group mb-3 passwordColor">
-              <input type="text" className="form-control" placeholder="Password" readOnly ref={passwordRef} />
+              <input type="text" className="form-control" placeholder="Password" readOnly ref={passwordRef} value={password}/>
               <div className="input-group-append">
                 <button className="btn btn-purple" type="button" onClick={copyPasswordToClipboard}>
                   Copy
@@ -52,10 +51,10 @@ function App() {
                 />
                 <label for="passwordLength"> Length {length}</label>
               </div>
-              <div class="form-group col-md-3">
+              <div className="form-group col-md-3">
                 <input
                   type="checkbox"
-                  class="form-control-range"
+                  className="form-control-range"
                   id="passwordLength"
                   defaultChecked={numberAllowed}
           onChange={() => {
@@ -64,10 +63,10 @@ function App() {
                 />
                 <label htmlFor="number">Numbers</label>
               </div>
-              <div class="form-group col-md-4">
+              <div className="form-group col-md-4">
                 <input
                   type="checkbox"
-                  class="form-control-range"
+                  className="form-control-range"
                   id="passwordLength"
                   defaultChecked={charAllowed}
                   onChange={() => {
