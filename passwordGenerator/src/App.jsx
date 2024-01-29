@@ -21,6 +21,11 @@ function App() {
     setPassword(pass)
 
   }, [length, numberAllowed, charAllowed])
+  const copyPasswordToClipboard = () => {
+    window.navigator.clipboard.writeText(password)
+    passwordRef.current?.select()
+    
+  }
   return (
     <>
       <div className="container mt-5">
