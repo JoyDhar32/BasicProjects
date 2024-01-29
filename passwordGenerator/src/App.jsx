@@ -37,7 +37,7 @@ function App() {
             <div className="input-group mb-3 passwordColor">
               <input type="text" className="form-control" placeholder="Password" readOnly ref={passwordRef} />
               <div className="input-group-append">
-                <button className="btn btn-purple" type="button">
+                <button className="btn btn-purple" type="button" onClick={copyPasswordToClipboard}>
                   Copy
                 </button>
               </div>
