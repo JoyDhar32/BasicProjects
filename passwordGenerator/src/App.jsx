@@ -69,7 +69,10 @@ function App() {
                   type="checkbox"
                   class="form-control-range"
                   id="passwordLength"
-                  
+                  defaultChecked={charAllowed}
+                  onChange={() => {
+                    setCharAllowed((prev) => !prev)
+                  }}  
                 />
                 <label htmlFor="charInput">Character</label>
               </div>
