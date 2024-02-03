@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './assets/button/Button'
+import PropsComponent from './assets/Components/PropsComponent'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
  <h1>Hello React</h1>
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nulla?</p>
  <Button />
+ <PropsComponent fullname="Joy Dhar" age={25} isStudent={true}/>
  </>
   )
 }
