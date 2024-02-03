@@ -1,10 +1,10 @@
 import React from "react";
 
 const ConditionalProps = (props) => {
-  if (login) {
+  if (props.login) {
     return <h1>Welcome {props.username}</h1>;
   } else {
-    return <h1>Welcome Guest</h1>;
+    return <h1>Please Login</h1>;
   }
 };
 
