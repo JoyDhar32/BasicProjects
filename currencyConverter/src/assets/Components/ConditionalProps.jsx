@@ -8,7 +8,7 @@ const ConditionalProps = (props) => {
   }
   */
 const User= <h1 className={PropsStyle.title}>Welcome {props.username}</h1>;
-const Guest= <h1 className={PropsStyle.titleNon}>Please Login</h1>;
+const Guest= <h1 className={PropsStyle.title_none}>Please Login</h1>;
   return (
     <>
       {props.login ? User: Guest}
