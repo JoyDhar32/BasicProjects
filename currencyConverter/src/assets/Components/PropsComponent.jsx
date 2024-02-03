@@ -4,6 +4,9 @@ const PropsComponent = (props) => {
   return (
  <>
  <h1>User Details</h1>
+ <p>FullName: {props.fullname}</p>
+    <p>Age: {props.age}</p>
+    <p>Occupation: {props.isStudent?'Student':'Other'}</p>
  </>
   )
 }
