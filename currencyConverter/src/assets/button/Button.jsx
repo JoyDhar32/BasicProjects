@@ -1,5 +1,5 @@
 import React from 'react'
-import Style from './Button.module.css'
+import Style from './Button.css'
 const Button = () => {
   return (
     <div className={Style.button}>Button</div>
