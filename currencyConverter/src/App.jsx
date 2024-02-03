@@ -10,6 +10,7 @@ const App = () => {
  <h1>Hello React</h1>
 <ConditionalProps login={true} username="Joy Dhar" />
 <ConditionalProps login={false} username="Joy Dhar" />
+<ConditionalProps  />
 
 
 
