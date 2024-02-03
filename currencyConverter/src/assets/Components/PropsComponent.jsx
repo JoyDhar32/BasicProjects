@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
 const PropsComponent = (props) => {
   return (
  <>
@@ -10,7 +10,17 @@ const PropsComponent = (props) => {
  </>
   )
 }
-
+PropsComponent.propTypes ={
+    fullname: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool
+    
+}
+PropsComponent.defaultProps ={
+    fullname: 'Guest',
+    age: 25,
+    isStudent: true
+}
 export default PropsComponent
 
 /*
@@ -23,4 +33,12 @@ Props:
 - Props are used to pass data, event
 - Props are used to pass data from parent to child component
 
+*/
+/*
+PropTypes: 
+- PropTypes is a library that is used to type check the props that are passed to a component.
+- PropTypes will help you to type check the props that are passed to a component.
+
+Default Props:
+- Default props are used to set the default values for the props.
 */
