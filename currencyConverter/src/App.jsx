@@ -15,7 +15,7 @@ const App = () => {
 
 
  {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nulla?</p>
- <Button />
+ <Button /> 
  <PropsComponent fullname="Joy Dhar" age={25} isStudent={true}/>
  <PropsComponent /> */}
  </>
