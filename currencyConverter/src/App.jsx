@@ -1,9 +1,10 @@
 import React from 'react'
-import List from './assets/Components/List'
-
+import ClickEvent from './assets/Components/ClickEvent'
 const App = () => {
   return (
-    <div><List /></div>
+    <>
+    <ClickEvent />
+    </>
   )
 }
 
