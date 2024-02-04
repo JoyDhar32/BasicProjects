@@ -20,7 +20,7 @@ let cars=[
   {id:9,name:"Lamborghini",model:"Aventador"},
   {id:10,name:"Ferrari",model:"F8 Tributo"}
 ]
-
+let carList = cars.map((car)=><li key={car.id}><h2>CarName:</h2>{car.name} <h2>Model:</h2> {car.model}</li>)
 
   return (
     <>
