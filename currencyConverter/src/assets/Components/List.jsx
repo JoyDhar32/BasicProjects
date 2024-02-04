@@ -20,13 +20,14 @@ let cars=[
   {id:9,name:"Lamborghini",model:"Aventador"},
   {id:10,name:"Ferrari",model:"F8 Tributo"}
 ]
-let carList = cars.map((car)=><li key={car.id}><h2>CarName:</h2>{car.name} <h2>Model:</h2> {car.model}</li>)
+let carList = cars.map((car)=><li key={car.id}>CarName: <span style={{color:'purple'}}> {car.name}</span>  &nbsp; Model:<span style={{color:'blue'}}>  {car.model} </span></li>)
 
   return (
     <>
     <div>Fruits List</div>
 <ol>{ListItems}</ol>
 <p>{output}</p>
+<ol>{carList}</ol>
     </>
   )
 }
