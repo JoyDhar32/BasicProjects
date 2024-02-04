@@ -1,8 +1,9 @@
 import React from 'react'
+import List from './assets/Components/List'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div><List /></div>
   )
 }
 
