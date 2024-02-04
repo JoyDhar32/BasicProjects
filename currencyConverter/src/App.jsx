@@ -1,9 +1,9 @@
 import React from 'react'
-import ClickEvent from './assets/Components/ClickEvent'
+import OnChangeEvent from './assets/Components/OnChangeEvent'
 const App = () => {
   return (
     <>
-    <ClickEvent />
+    <OnChangeEvent />
     </>
   )
 }
