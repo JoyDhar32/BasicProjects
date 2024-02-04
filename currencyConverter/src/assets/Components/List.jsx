@@ -27,7 +27,9 @@ cars.sort((a,b)=>(a.name>b.name)?1:-1);
 let carList = cars.map((car)=><li key={car.id}>CarName: <span style={{color:'purple'}}> {car.name}</span>  &nbsp; Model:<span style={{color:'blue'}}>  {car.model} </span>&nbsp;   Price: <span style={{color:'red'}}>{car.price} </span></li>)
 let lowPrice=cars.filter((car)=>car.price<=25000);
 let lowPriceCars=lowPrice.map((car)=><li key={car.id}>CarName: <span style={{color:'purple'}}> {car.name}</span>  &nbsp; Model:<span style={{color:'blue'}}>  {car.model} </span> &nbsp; Price:<span style={{color:'red'}}>  {car.price} </span></li>)
-  return (
+let highPrice=cars.filter((car)=> car.price>25000);
+let highPriceCars=highPrice.map((car)=><li key={car.id}>CarName: <span style={{color:'purple'}}> {car.name}</span>  &nbsp; Model:<span style={{color:'blue'}}>  {car.model} </span> &nbsp; Price:<span style={{color:'red'}}>  {car.price} </span></li>)  
+return (
     <>
     <div>Fruits List</div>
 <ol>{ListItems}</ol>
@@ -35,6 +37,8 @@ let lowPriceCars=lowPrice.map((car)=><li key={car.id}>CarName: <span style={{col
 <ol>{carList}</ol>
 <p>Low Price Cars</p>
 <ol>{lowPriceCars}</ol>
+<p>High Price Cars</p>
+<ol>{highPriceCars}</ol>
     </>
   )
 }
