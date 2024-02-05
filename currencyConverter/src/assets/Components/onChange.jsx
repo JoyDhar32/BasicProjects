@@ -5,7 +5,7 @@ const onChange = () => {
     const [address,setAddress] = useState('');
   return (
     <>
-    
+    <input type='text' value={name} placeholder='enter you name' onChange={()=>handleNameChange()}/>
     </>
   )
 }
