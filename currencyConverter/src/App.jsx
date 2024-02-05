@@ -1,9 +1,9 @@
 import React from 'react'
-import OnChangeEvent from './assets/Components/onChange'
+import UpdateObj from './assets/Components/UpdateObj'
 const App = () => {
   return (
     <>
-    <OnChangeEvent />
+    <UpdateObj />
     </>
   )
 }
