@@ -1,9 +1,9 @@
 import React from 'react'
-import UpdateObj from './assets/Components/UpdateObj'
+import UpdateArray from './assets/Components/UpdateArray'
 const App = () => {
   return (
     <>
-    <UpdateObj />
+    <UpdateArray />
     </>
   )
 }
