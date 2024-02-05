@@ -1,5 +1,5 @@
 import React from 'react'
-import OnChangeEvent from './assets/Components/OnChangeEvent'
+import OnChangeEvent from './assets/Components/onChange'
 const App = () => {
   return (
     <>
