@@ -61,6 +61,31 @@ const onChange = () => {
           <option value="giftcard">Gift Card</option>
         </select>
         <p> Payment: {payment} </p>
+
+<label>Shipping: </label>
+<br />    <input
+          type="radio"
+          value="standard"
+          onChange={(e) => handleShipping(e)}
+          name="shipping"
+        />
+        Standard <br /> 
+        <input
+          type="radio"
+          value="express"
+          onChange={(e) => handleShipping(e)}
+          name="shipping"
+        />
+        Express<br /> 
+        <input
+          type="radio"
+          value="nextday"
+          onChange={(e) => handleShipping(e)}
+          name="shipping"
+        />
+        Next Day<br /> 
+        <p>Shipping: {shipping}</p>
+
       </div>
     </>
   );
