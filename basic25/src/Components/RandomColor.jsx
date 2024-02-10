@@ -69,4 +69,4 @@ export default function RandomColor() {
     </div>
   );
 }
-//✅ Completed Random Color
+//✅ Completed Random Color Generator
