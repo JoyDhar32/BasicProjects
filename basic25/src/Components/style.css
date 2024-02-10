@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Container Styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Margin Bottom Styles */
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Row Styles */
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+  
+  /* Accordion Styles */
+  .accordian {
+    width: 100%;
+  }
+  
+  /* Accordion Item Styles */
+  .accordian-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  /* Accordion Title Styles */
+  .accordian-title {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Accordion Content Styles */
+  .accordian-content {
+    padding: 10px;
+  }
+  
+  /* Content Styles for Active Accordion */
+  .accordian-content .content {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  .btn{
+    width:200px;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:15px;
+  }
